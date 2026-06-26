@@ -65,11 +65,10 @@ main,
 .brand-mark {
   width: 34px;
   height: 34px;
-  border-radius: 10px;
-  background:
-    radial-gradient(circle at 70% 28%, #fff 0 8%, transparent 9%),
-    linear-gradient(135deg, var(--accent), #9b5cff 54%, var(--accent-two));
+  display: block;
+  border-radius: 9px;
   box-shadow: 0 10px 26px rgba(255, 79, 121, 0.34);
+  object-fit: cover;
 }
 
 .top-nav {
