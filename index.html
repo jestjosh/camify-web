@@ -3,20 +3,73 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Camify</title>
+  <title>Camify - Creative Camera Effects</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="page">
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Camify home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>Camify</span>
+    </a>
+    <nav class="top-nav" aria-label="Camify links">
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </header>
+
+  <main>
     <section class="hero">
-      <p class="eyebrow">Camify</p>
-      <h1>Photo effects, collages, and quick creative edits.</h1>
-      <p class="lede">Public information for Camify users and App Store review.</p>
-      <nav class="links" aria-label="Camify links">
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="terms.html">Terms of Use</a>
-        <a href="support.html">Support</a>
-      </nav>
+      <div class="hero-copy">
+        <p class="eyebrow">Camera effects for fast edits</p>
+        <h1>Make every shot look like it had a creative director.</h1>
+        <p class="lede">Camify turns everyday photos into punchy edits, polished collages, and share-ready camera moments in seconds.</p>
+        <div class="hero-actions" aria-label="Primary links">
+          <a class="button primary" href="support.html">Get Support</a>
+          <a class="button secondary" href="privacy.html">Privacy Policy</a>
+        </div>
+      </div>
+
+      <div class="phone-stage" aria-label="Camify preview">
+        <div class="phone">
+          <div class="phone-bar"></div>
+          <div class="camera-card main-shot">
+            <span class="shot-label">Glow Pop</span>
+            <span class="shot-count">24</span>
+          </div>
+          <div class="tool-row">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="mini-grid">
+            <div class="camera-card tile-one"></div>
+            <div class="camera-card tile-two"></div>
+            <div class="camera-card tile-three"></div>
+            <div class="camera-card tile-four"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-band" aria-label="Camify highlights">
+      <article>
+        <span>01</span>
+        <h2>Effects that hit fast</h2>
+        <p>Drop in a photo, choose a look, and get an edit with enough energy for social, profiles, or the group chat.</p>
+      </article>
+      <article>
+        <span>02</span>
+        <h2>Collages without drag</h2>
+        <p>Build clean layouts quickly, then save or share without fighting a complicated editor.</p>
+      </article>
+      <article>
+        <span>03</span>
+        <h2>Clear app policies</h2>
+        <p>Find privacy, terms, support, and account deletion details in one place.</p>
+      </article>
     </section>
   </main>
 </body>
