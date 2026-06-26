@@ -6,4 +6,4 @@ Public static pages for Camify App Store metadata:
 - Terms of Use: `terms.html`
 - Support: `support.html`
 
-The site is static and can be deployed on Vercel by importing this repository.
+The site is static and can be deployed with any static hosting provider.
